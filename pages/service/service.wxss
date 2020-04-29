@@ -1,0 +1,9 @@
+/* pages/service/service.wxss */
+.group_box{width: 100%;height: auto;}
+.one_box{display: flex;justify-content: space-around;margin:0 auto;width: 98%;}
+
+.box_fw{width: 350rpx;height: 200rpx;position: relative;margin-top:17rpx;}
+.box_fw image{width:100%;height: 100%;}
+.box_fw .son_text{display: flex;justify-content: center;}
+.box_fw text{position: absolute;top: 0;line-height: 200rpx;color: #fff;font-size: 27rpx;}
+.red_box{width: 30rpx;height: 10rpx;background:red;position: absolute;top: 58%;}

@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/common/head",
+    "pages/common/footer",
+    "pages/service/service",
+    "pages/service/base",
+    "pages/website/website",
+    "pages/phone/phone",
+    "pages/maintain/maintain",
+    "pages/domain/domain",
+    "pages/wechat/wechat",
+    "pages/case/case",
+    "pages/case_detail/case_detail",
+    "pages/about/about",
+    "pages/contact/contact",
+    "pages/news/news"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "思睿鸿图",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default",
+    "onReachBottomDistance": 50
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#FE0000",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/image/tabbar/footer3.png",
+        "selectedIconPath": "pages/image/tabbar/footer3_red.png"
+      },
+      {
+        "pagePath": "pages/case/case",
+        "text": "案例",
+        "iconPath": "pages/image/tabbar/footer4.png",
+        "selectedIconPath": "pages/image/tabbar/footer4_red.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "我们",
+        "iconPath": "pages/image/tabbar/footer5.png",
+        "selectedIconPath": "pages/image/tabbar/footer5_red.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "联系",
+        "iconPath": "pages/image/tabbar/footer6.png",
+        "selectedIconPath": "pages/image/tabbar/footer6_red.png"
+      }
+    ]
+  }
+}

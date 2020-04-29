@@ -1,0 +1,40 @@
+<!--pages/website/website.wxml-->
+
+<include src="../common/head" />
+<import src="/pages/service/base" />
+<!-- 使用模板 -->
+<template is="header_img" data="{{img:base_data.header.img}}"></template>
+<!-- 字体部分 -->
+<view class="group_text">
+  <view class="group_flex">
+    <view class="group_g"></view>
+    <view class="group_bai"></view>
+    <text>contact us</text>
+  </view>
+  <text class="group_font">联系我们</text>
+</view>
+<!-- 字体部分end -->
+<view class="xixun">
+  <view class="red_font">业务资讯</view>
+  <view class="zx_box">
+    <image src="/pages/image/contact/contact1.png" />
+    <text>136-9361-0533</text>
+  </view>
+
+  <view class="zx_box">
+    <image src="/pages/image/contact/contact2.png" />
+    <text>010-56153651</text>
+  </view>
+
+  <view class="zx_box">
+    <image src="/pages/image/contact/contact3.png" />
+    <text>599385821</text>
+  </view>
+
+  <view class="zx_box">
+    <image src="/pages/image/contact/contact4.png" />
+    <text>wjl@bjsrht.cn</text>
+  </view>
+</view>
+
+<template is="copy" data="{{copy:base_data.copy}}"></template>

@@ -1,0 +1,22 @@
+@import '/pages/service/base';
+@import '/pages/index/index';
+.news{
+  width: 90%;
+  height: auto;
+  margin:0 auto;
+  background:#fff;
+  padding: 15rpx;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:0.5rpx #C7C7C7 solid;
+}
+
+.news_text{
+  padding:15rpx 0;
+  width: 90%;
+}
+.r_jiantou{
+  color:#c7c7c7
+}

@@ -1,0 +1,59 @@
+<include src="../common/head" />
+
+<import src="/pages/service/base" />
+<!-- 使用模板 -->
+<template is="header_img" data="{{img:base_data.header.img}}"></template>
+<template is="header_text" data="{{header:base_data.header}}"></template>
+
+<view class="about">
+  <image src="/pages/image/about-bg.png" class="about_img" />
+  <view class="about_flex">
+    <view class="about_box">
+      <image src="/pages/image/about/about-pic1.png" />
+      <text class="red_big">八年互联网经验</text>
+      <text class="red_sm">八年的互联经验,服务于互联网行业。是由一批经验丰富有强烈进取心的和创新意识的技术研发人才及适应网络时。</text>
+    </view>
+    <view class="about_box">
+      <image src="/pages/image/about/about-pic2.png" />
+      <text class="red_big">1000+项目经验</text>
+      <text class="red_sm">
+      1000+的项目经验,为客户提供满意的项目方案。以客户满意度为服务，以专业的态度打造一流品牌服务。
+      </text>
+    </view>
+  </view>
+
+  <view class="about_flex">
+    <view class="about_box">
+      <image src="/pages/image/about/about-pic3.png" />
+      <text class="red_big">100%客户好评</text>
+      <text class="red_sm">
+      为客户提供专业的需求分析，满足客户需求。客户满度是我们服务的宗旨。
+      </text>
+    </view>
+    <view class="about_box">
+      <image src="/pages/image/about/about-pic4.png" />
+      <text class="red_big">全国500强品牌</text>
+      <text class="red_sm">
+      八年的互联经验,服务于互联网行业。是由一批经验丰富有强烈进取心的和创新意识的技
+      </text>
+    </view>
+  </view>
+</view>
+
+
+<template is="footer" data="{{footer:base_data.footer}}"></template>
+
+<view class="lxwm">
+  <view class="ma">
+    <image src="/pages/image/about/about3.jpg" />
+    <text>扫码资讯详情</text>
+  </view>
+  <view class="lx">
+      <view>思睿鸿途为你提供专业的策划方案</view>
+      <view>010-56153651</view>
+      <view>地址：北京市朝阳区汤立路218号明天生活馆C座7层</view>
+  </view>
+  <view style="clear:both"></view>
+</view>
+
+<template is="copy" data="{{copy:base_data.copy}}"></template>

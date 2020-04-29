@@ -1,0 +1,12 @@
+<!--pages/website/website.wxml-->
+
+<include src="../common/head" />
+<import src="/pages/service/base"/>
+<!-- 使用模板 -->
+<template is="header_img" data="{{img:base_data.header.img}}"></template>
+<template is="header_text" data="{{header:base_data.header}}"></template>
+<template is="content" data="{{content:base_data.content}}"></template>
+<template is="footer" data="{{footer:base_data.footer}}"></template>
+<template is="liucheng" data="{{liucheng_img:base_data.liucheng_img}}"></template>
+<template is="copy" data="{{copy:base_data.copy}}"></template>
+

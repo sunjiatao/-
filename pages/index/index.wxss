@@ -1,0 +1,41 @@
+text{font-size: 30rpx;}
+
+
+/* 轮播图start */
+swiper{height: 300rpx;}
+swiper-item{height: 100%}
+swiper image{height:300rpx;width:100%;}
+/* 轮播图end */
+/* 第一部分 */
+.one_group{width: 100%;height: auto;}
+.group_text{width: auto;height: auto;padding-top:20rpx;margin:0 auto;}
+.group_g{width: 35rpx;height: 8rpx;background:#000}
+.group_bai{width: 20rpx;height: 8rpx;background: #fff;}
+.group_flex{display: flex; justify-content: center;align-items: center;}
+.group_flex text{font-size: 25rpx;}
+.group_font{display: block;text-align: center;}
+
+.group_box{width: 100%;height: auto;}
+.one_box{display: flex;justify-content: space-around;margin:0 auto;width: 98%;}
+
+.box_fw{width: 350rpx;height: 200rpx;position: relative;margin-top:17rpx;}
+.box_fw image{width:100%;height: 100%;}
+.box_fw .son_text{display: flex;justify-content: center;}
+.box_fw text{position: absolute;top: 0;line-height: 200rpx;color: #fff;font-size: 27rpx;}
+.red_box{width: 30rpx;height: 10rpx;background:red;position: absolute;top: 58%;}
+
+
+/* 第二部分 */
+.two_group_box{width: 100%;height: auto;margin:0 auto;display: flex;justify-content:space-evenly; }
+.youshi_box{width: 347rpx;height: 270rpx;background:#fff;box-shadow:0 0 15rpx #B3B2B2;margin-top:17rpx;display: flex;justify-content: center;align-items: center;flex-direction:column;}
+.youshi_box image{width: 90rpx;height: 90rpx;}
+.big_text{font-size: 30rpx;}
+.small_text{font-size: 20rpx;padding:0 20rpx;text-align: center;color: #aeaaaa}
+/* 第三部分 案例 */
+.box_anli{width: 100%;height: auto;background: #f3f2f0;padding-bottom:17rpx;}
+.anli_img{width: 95%;height:450rpx;margin:0 auto;margin-bottom: 17rpx;background:#000;position: relative;}
+.anli_img image{width: 100%;height:100%;}
+.anli_img text{width: 100%;height: 50rpx;background:rgba(230,83,69,0.8);display: block;position: absolute;left: 0;bottom:0;line-height: 50rpx;color: #fff;font-size: 25rpx;text-align: center;}
+
+.more{margin: 0 auto;width: 150rpx;height: 40rpx;border: 1px solid #e65345;color:#e65345;border-radius: 10rpx;font-size: 25rpx;text-align: center;line-height: 40rpx;}
+

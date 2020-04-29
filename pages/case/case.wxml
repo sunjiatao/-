@@ -1,0 +1,33 @@
+<!--pages/case/case.wxml-->
+
+<include src="../common/head" />
+<import src="/pages/service/base" />
+<template is="header_img" data="{{img:base_data.header.img}}"></template>
+<!-- 字体部分 -->
+<view class="group_text">
+  <view class="group_flex">
+    <view class="group_g"></view>
+    <view class="group_bai"></view>
+    <text>Success case</text>
+  </view>
+  <text class="group_font">成功案例</text>
+</view>
+
+<view class="anli_box">
+<!-- 循环开始 -->
+  <view wx:for="{{cases.data}}" wx:key="k" wx:for-item="v">
+    <view class="anli_box_son">
+      <label class="anli_lable">
+        <navigator url="/pages/case_detail/case_detail?id={{v.id}}" >
+          <image src="{{v.img}}"></image>
+          <text>{{v.title}}</text>
+        </navigator>
+      </label>
+    </view>
+  </view>
+<!-- 循环结束 -->
+</view>
+
+<view style="text-align:center;font-size:30rpx;" wx:if="{{hidden}}">已经到底了~</view>
+<!-- 字体部分end -->
+<template is="copy" data="{{copy:base_data.copy}}"></template>

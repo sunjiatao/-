@@ -1,0 +1,16 @@
+    "pages/index/index",   首页
+    "pages/logs/logs",
+    "pages/common/head",   公共头部
+    "pages/common/footer",  公共尾部
+    "pages/service/service",  服务页
+    "pages/service/base",  服务块 公共模板
+    "pages/website/website",  服务块 详情页第一个页面
+    "pages/phone/phone",  服务块 详情页第二个页面
+    "pages/maintain/maintain",  服务块 详情页第三个页面
+    "pages/domain/domain",  服务块 详情页第四个页面
+    "pages/wechat/wechat",  服务块 详情页第五个页面
+    "pages/case/case",   tabbar案例
+    "pages/case_detail/case_detail",   案例详情页
+    "pages/about/about",      tabbar 我们
+    "pages/contact/contact",  tabbar 联系
+    "pages/news/news", 资讯

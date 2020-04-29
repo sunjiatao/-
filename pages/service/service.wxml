@@ -1,0 +1,24 @@
+<include src="../common/head" />
+ <view class="group_box">
+     <!-- 一层循环start -->
+    <view wx:for="{{service_url}}" wx:for-item="services">
+      <view class="one_box">
+        <!-- 二层循环start -->
+        <view wx:for="{{services}}" wx:for-item="service">
+          <navigator url="{{service['url']}}">
+            <view class="box_fw">
+              <image src="{{service['img_url']}}" />
+              <view class="son_text">
+                <text>{{service['text']}}</text>
+                <view class="red_box"></view>
+              </view>
+            </view>
+          </navigator>
+        </view>
+        <!-- 二层循环end -->
+      </view>
+    </view>
+    <!-- 一层循环end -->
+
+  </view>
+<include src="../common/footer" />

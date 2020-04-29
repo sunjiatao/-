@@ -1,0 +1,11 @@
+/* pages/phone/phone.wxss */
+@import '/pages/service/base';
+
+.box{width: 96%;height: 110rpx;display: flex;flex-direction: column;justify-content: center;text-align: center;margin:0 auto;}
+
+.youshi{width:100%;height:200rpx;display: flex;justify-content: center;}
+.tu_pic{width:50%;height: 200rpx;}
+.tu_pic image{width: 100%;height: 100%;}
+.pic_text{width:50%;height: 200rpx;display: flex;justify-content: center;flex-direction: column;}
+.pic_text text{padding:20rpx 30rpx 0 30rpx;text-align: left;}
+.pic_text .r_font{text-align: right}

@@ -1,0 +1,61 @@
+<!--pages/website/website.wxml-->
+
+<include src="../common/head" />
+<!-- 定义头部图片 模板 -->
+<template name="header_img">
+  <view class="img">
+    <image src='{{img}}'></image>
+  </view>
+</template>
+<!-- 定义头部字体 模板 -->
+<template name="header_text">
+  <view class="jianshe_text">
+    <text class="red_font">{{header.title}}</text>
+    <text class="red_font">{{header.en_title}}</text>
+    <text class="s_font">
+  {{header.detail}}
+  </text>
+  </view>
+</template>
+
+<!-- 定义中间模板 -->
+<template name="content">
+  <view class="content">
+    <!-- 循环开始 -->
+    <view wx:for="{{content}}" wx:key="key" wx:for-item="items">
+      <view class="content_box">
+        <image src="{{items.img}}"></image>
+        <text class="red_font">{{items.title}}</text>
+        <text class="s_font">{{items.decript}}</text>
+      </view>
+    </view>
+    <!-- 循环结束 -->
+
+  </view>
+
+</template>
+<!-- 中间模板结束 -->
+
+<!-- 定义尾部模板 -->
+<template name="footer">
+  <view class="footer">
+    <image src="{{footer.img}}"></image>
+    <view class="footer_font">
+      <text class="red_font">{{footer.title}}</text>
+      <text class="red_font">{{footer.en_title}}</text>
+
+
+    </view>
+  </view>
+</template>
+
+<!-- 定义网站建设流程图 -->
+<template name="liucheng">
+  <view class="footer_img" bindtap="tap_pic">
+    <image src="{{liucheng_img}}"></image>
+  </view>
+</template>
+<!-- 定义版权 -->
+<template name="copy">
+  <view class="copy">{{copy}}</view>
+</template>

@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="head">
+  <label class="head_flex">
+    <text class="sy">{{title}}</text>
+    <image bindtap="menu" class="head_img" src="/pages/image/icon_nav_form.png" />
+  </label>
+  <view class="menu" hidden="{{hidden_menu}}">
+    <navigator open-type="switchTab" class="menu_text" url="/pages/index/index">首页</navigator>
+    <navigator class="menu_text" url="/pages/service/service">服务</navigator>
+    <navigator open-type="switchTab" class="menu_text" url="/pages/case/case">案例</navigator>
+    <navigator class="menu_text" url="/pages/news/news">资讯</navigator>
+    <navigator open-type="switchTab" class="menu_text" url="/pages/about/about">我们</navigator>
+    <navigator open-type="switchTab" class="menu_text" url="/pages/contact/contact">联系</navigator>
+
+  </view>
+</view>
+<view style="height:100rpx;"></view>
+<!-- 头部end -->

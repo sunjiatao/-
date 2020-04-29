@@ -1,0 +1,15 @@
+<include src="../common/head" />
+<import src="/pages/service/base" />
+<!-- 使用模板 -->
+<template is="header_img" data="{{img:base_data.header.img}}"></template>
+
+<template is="header_text" data="{{header:base_data.header}}"></template>
+<template is="content" data="{{content:base_data.content}}"></template>
+
+<template is="footer" data="{{footer:base_data.footer}}"></template>
+<view class="s_font ss" >
+ 根据您提出建站需求和网站要求，双方进行面对面的沟通和了解来
+                明确建站目的及功能定位。通过和您的沟通了解,我方出具一份详细
+                专业网站策划方案，内有功能明细，页面设计数量，报价等。
+</view>
+<template is="copy" data="{{copy:base_data.copy}}"></template>

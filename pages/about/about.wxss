@@ -1,0 +1,31 @@
+@import '/pages/service/base';
+.jianshe_text {height:340rpx}
+.about{width:100%;height:auto;position: relative}
+.about_img{position:absolute;width: 100%;height:100%;z-index: -1;}
+.about_flex{width: 100%;height:auto;display: flex;justify-content: space-evenly;}
+.about_box{
+  width:47%;
+  height: 500rpx;
+  /* background:rgb(0, 255, 13); */
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 15rpx;
+}
+.about_box image{
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.red_big{color:#e65345;font-size: 35rpx;margin-top: 10rpx;}
+.red_sm{color:#e65345;font-size: 25rpx;margin-top:10rpx;}
+
+
+.lxwm{width: 95%;height: auto;margin:0 auto;display: flex;justify-content: space-evenly;}
+.ma{width:200rpx;height:auto;font-size: 25rpx;float: left;text-align: center;}
+.ma image{width: 200rpx;height:200rpx;}
+.lx{float:left;width: 480rpx;margin:0 auto;height:300rpx;font-size: 30rpx;}
+.lx view{padding:15rpx 0;}

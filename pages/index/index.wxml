@@ -1,0 +1,144 @@
+<!--index.wxml-->
+<include src="../common/head" />
+<!-- 头部end -->
+
+<!-- 轮播图start -->
+<!-- 图片尺寸 414px*165px   比例 2.5:1 -->
+<swiper indicator-dots autoplay circular interval="2000" duration="500">
+  <swiper-item>
+    <navigator url="/pages/common/head">
+      <image mode="aspectFit" src="/pages/image/tw1.jpg" />
+    </navigator>
+  </swiper-item>
+  <swiper-item>
+    <navigator url="/pages/common/head">
+      <image mode="aspectFit" src="/pages/image/tw2.jpg" />
+    </navigator>
+  </swiper-item>
+  <swiper-item>
+    <navigator url="/pages/common/head">
+      <image mode="aspectFit" src="/pages/image/tw1.jpg" />
+    </navigator>
+  </swiper-item>
+</swiper>
+
+
+<!-- 轮播图end -->
+
+<!-- 第一部分 -->
+<view class="one_group">
+  <!-- 字体部分 -->
+  <view class="group_text">
+    <view class="group_flex">
+      <view class="group_g"></view>
+      <view class="group_bai"></view>
+      <text>Our service</text>
+    </view>
+    <text class="group_font">我们的服务</text>
+  </view>
+  <!-- 字体部分end -->
+
+  <view class="group_box">
+    <!-- 一层循环start -->
+    <view wx:for="{{service_url}}" wx:key="key" wx:for-item="services">
+      <view class="one_box">
+        <!-- 二层循环start -->
+        <view wx:for="{{services}}" wx:key="k" wx:for-item="service">
+          <navigator url="{{service['url']}}">
+            <view class="box_fw">
+              <image src="{{service['img_url']}}" />
+              <view class="son_text">
+                <text>{{service['text']}}</text>
+                <view class="red_box"></view>
+              </view>
+            </view>
+          </navigator>
+        </view>
+        <!-- 二层循环end -->
+      </view>
+    </view>
+    <!-- 一层循环end -->
+  </view>
+</view>
+<!-- 第一部分结束 -->
+
+
+
+<!-- 第二部分 -->
+<view class="one_group">
+  <!-- 字体部分 -->
+  <view class="group_text">
+    <view class="group_flex">
+      <view class="group_g"></view>
+      <view class="group_bai"></view>
+      <text>Our advantages</text>
+    </view>
+    <text class="group_font">我们的优势</text>
+  </view>
+  <!-- 字体部分end -->
+  <!-- box start -->
+  <view class="two_group_box">
+    <view class="youshi_box">
+      <image src="/pages/image/advantage1.png" />
+      <text class="big_text">专业</text>
+      <text class="small_text">八年技术沉淀、专业团队、只为您提供更好的服务</text>
+    </view>
+    <view class="youshi_box">
+      <image src="/pages/image/advantage1.png" />
+      <text class="big_text">专业</text>
+      <text class="small_text">八年技术沉淀、专业团队、只为您提供更好的服务</text>
+    </view>
+  </view>
+
+  <view class="two_group_box">
+    <view class="youshi_box">
+      <image src="/pages/image/advantage1.png" />
+      <text class="big_text">专业</text>
+      <text class="small_text">八年技术沉淀、专业团队、只为您提供更好的服务</text>
+    </view>
+    <view class="youshi_box">
+      <image src="/pages/image/advantage1.png" />
+      <text class="big_text">专业</text>
+      <text class="small_text">八年技术沉淀、专业团队、只为您提供更好的服务</text>
+    </view>
+  </view>
+  <!-- box end -->
+</view>
+<!-- 第二部分结束 -->
+
+<!-- 第三部分 案例 -->
+<view class="one_group">
+  <!-- 字体部分 -->
+  <view class="group_text">
+    <view class="group_flex">
+      <view class="group_g"></view>
+      <view class="group_bai"></view>
+      <text>Our advantages</text>
+    </view>
+    <text class="group_font">我们的优势</text>
+  </view>
+  <!-- 字体部分end -->
+  <!-- 案例box start -->
+  <view class="box_anli">
+    <!-- //推荐案例循环 -->
+    <view wx:for="{{caseRecommend}}" wx:key="k" wx:for-item="item">
+      <navigator url="/pages/case_detail/case_detail?id={{item.id}}">
+        <view class="anli_img">
+          <image src="{{item.img}}"></image>
+          <text>{{item.title}}</text>
+        </view>
+      </navigator>
+    </view>
+    <!-- 推荐案例循环结束 -->
+   <!-- more -->
+    <view class="more">
+      <navigator open-type="switchTab" url="/pages/case/case">MORE ></navigator>
+    </view>
+  </view>
+  <!-- 案例box end -->
+
+
+</view>
+<!-- 第三部分结束 -->
+
+<include src="../common/footer" />

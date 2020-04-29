@@ -1,0 +1,60 @@
+<include src="../common/head" />
+<import src="/pages/service/base" />
+<!-- 使用模板 -->
+<template is="header_img" data="{{img:base_data.header.img}}"></template>
+<view class="box">
+  <text class="red_font">网站托管优势</text>
+  <text class="red_font">WEB HOSTING ADVANTAGE</text>
+</view>
+<view class="youshi">
+  <view class="tu_pic">
+    <image src="/pages/image/maintain/maintain1.jpg"></image>
+  </view>
+
+  <view class="pic_text">
+    <text class="red_font">人员优势</text>
+    <text class="s_font">减少了网站维护人员的培训与专业人员的需求</text>
+  </view>
+</view>
+
+<view class="youshi">
+  <view class="pic_text">
+    <text class="red_font r_font">时间优势</text>
+    <text class="s_font">减少了网站维护人员的培训与专业人员的需求</text>
+  </view>
+
+   <view class="tu_pic">
+    <image src="/pages/image/maintain/maintain2.jpg"></image>
+  </view>
+</view>
+
+<view class="youshi">
+  <view class="tu_pic">
+    <image src="/pages/image/maintain/maintain3.jpg"></image>
+  </view>
+
+  <view class="pic_text">
+    <text class="red_font">资金优势</text>
+    <text class="s_font">减少了网站维护人员的培训与专业人员的需求</text>
+  </view>
+</view>
+
+<view class="youshi">
+  <view class="pic_text">
+    <text class="red_font r_font">技术优势</text>
+    <text class="s_font">减少了网站维护人员的培训与专业人员的需求</text>
+  </view>
+
+   <view class="tu_pic">
+    <image src="/pages/image/maintain/maintain2.jpg"></image>
+  </view>
+</view>
+
+<view style="margin-top:17rpx;width:100%;height:230rpx;">
+ <image style="width:100%;height:100%;" src="/pages/image/maintain/phone-bottom.jpg"></image>
+</view>
+<template is="header_text" data="{{header:base_data.header}}"></template>
+<template is="content" data="{{content:base_data.content}}"></template>
+
+
+<template is="copy" data="{{copy:base_data.copy}}"></template>

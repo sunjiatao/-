@@ -1,0 +1,7 @@
+@import '/pages/service/base';
+@import '/pages/index/index';
+.anli_box{width: 100%;height: auto;display: flex;justify-content: space-evenly;flex-wrap: wrap;align-items: flex-start }
+.anli_box_son{width: 47.5%;height: 200rpx;margin-top: 20rpx;}
+.anli_lable{width: 100%;height: 100%;}
+.anli_lable image{width: 355rpx;height: 170rpx;}
+.anli_lable text{display: block;line-height: 30rpx;font-size: 25rpx;position: relative;bottom:7rpx;color:#337ab7;text-align: center;width: 355rpx;}

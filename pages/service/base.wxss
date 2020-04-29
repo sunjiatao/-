@@ -1,0 +1,21 @@
+/* pages/website/website.wxss */
+.img{width: 100%;height: 250rpx;}
+.img image{width: 100%;height: 100%;}
+/* 头部字体 */
+.jianshe_text{width: 96%;height: 250rpx;display: flex;flex-direction: column;justify-content: center;text-align: center;margin:0 auto;}
+.red_font{font-size: 30rpx;color: #e65345;}
+.s_font{font-size: 22rpx;color: #706c6c;line-height: 35rpx;text-align: center;}
+/* 中间statr */
+.content{width: 100%;height: auto;}
+.content_box{width: 80%;height: 300rpx;margin:0 auto;display: flex;justify-content: space-evenly;flex-direction: column;align-items: center;padding-top: 10rpx;}
+.content_box image{width: 150rpx;height: 150rpx;}
+
+/* 尾部 */
+.footer{width: 100%;height: auto;}
+.footer image{width: 100%;height: 250rpx;}
+.footer_font{display: flex;flex-direction: column;justify-content: center;text-align: center}
+.footer_img{margin:0 auto;width: 98%;height: 250rpx;}
+.footer_img image{width: 100%;height: 100%;position: relative}
+
+/* 版权 */
+.copy{width: 100%;height: 40rpx;background:#393837;text-align: center;color: #fff;font-size: 25rpx;line-height: 40rpx;margin-top: 20rpx;position: relative;bottom: 0;left: 0}

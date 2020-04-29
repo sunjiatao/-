@@ -1,0 +1,4 @@
+/**app.wxss**/
+/* 引入头部样式 */
+@import './pages/common/head.wxss';
+@import './pages/common/footer.wxss';

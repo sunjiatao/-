@@ -1,0 +1,15 @@
+<!-- 电话 -->
+<view class="phone_num">
+  <label bindtap="Call">
+    <image src="/pages/image/tel.png"></image>
+    <text selectable>{{phone_num}}</text>
+  </label>
+</view>
+
+<!-- 地图 -->
+<map id="myMap" markers="{{map.markers}}" longitude="{{map.markers[0].longitude}}" latitude="{{map.markers[0].latitude}}" >
+  <view bindtap="go_map" class="map">查看地图</view>
+</map>
+<!-- 版权 -->
+<view class="copy">北京思睿鸿途科技有限公司  版权所有©</view>
+

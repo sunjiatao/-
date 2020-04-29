@@ -1,0 +1,4 @@
+/* pages/phone/phone.wxss */
+@import '/pages/service/base';
+
+.ss{width:90%;margin:0 auto;line-height:40rpx;}

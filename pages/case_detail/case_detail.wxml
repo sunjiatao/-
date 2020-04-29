@@ -1,0 +1,9 @@
+<!--pages/case_detail/case_detail.wxml-->
+<include src="../common/head" />
+<import src="/pages/service/base" />
+
+<view style="width:100%;height:auto;background:#eceaea;padding:10rpx;">
+<import src="../../wxParse/wxParse.wxml"/>
+<template is="wxParse" data="{{wxParseData:info.nodes}}"/>
+</view>
+<template is="copy" data="{{copy:base_data.copy}}"></template>

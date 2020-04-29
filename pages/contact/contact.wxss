@@ -1,0 +1,7 @@
+@import '/pages/service/base';
+@import '/pages/index/index';
+
+.xixun{width: 94%;margin: 0 auto;height: auto;}
+.zx_box{display: flex;justify-content: flex-start;align-items: center;margin-top: 10rpx;}
+.zx_box image{width: 40rpx;height:40rpx;}
+.zx_box text{font-size: 30rpx;}

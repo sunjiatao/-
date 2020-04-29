@@ -1,0 +1,5 @@
+/* pages/case_detail/case_detail.wxss */
+@import '../../wxParse/wxParse.wxss';
+/* page{width:96%;margin:0 auto;} */
+.wxParse-p{width: 96%;margin:0 auto}
+.WxEmojiView{font-size: 30rpx;line-height: 40rpx;}

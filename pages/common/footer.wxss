@@ -1,0 +1,12 @@
+/* pages/common/footer.wxss */
+/* 电话 */
+.phone_num{width: 100%;height: 110rpx;}
+.phone_num label{display: flex;justify-content: center;align-items: center;}
+.phone_num image{width: 50rpx;height: 50rpx;}
+.phone_num text{line-height: 110rpx;font-size: 40rpx;}
+
+/* 地图 */
+#myMap{width: 100%;position: relative;}
+.map{width: 150rpx;height: 50rpx;border:1px solid #000;position: absolute;top: 0;left: 0;line-height: 50rpx;background: #fff;border-radius: 10rpx;text-align: center;}
+/* 版权 */
+.copy{width: 100%;height: 40rpx;background:#393837;text-align: center;color: #fff;font-size: 25rpx;line-height: 40rpx;}
